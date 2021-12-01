@@ -1,0 +1,53 @@
+﻿Build started 12/2/2021 1:11:35 AM.
+     1>Project "c:\Users\walied\documents\visual studio 2012\Projects\NativeDebugger\NativeDebugger\NativeDebugger.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\NativeDebugger.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\NativeDebugger.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt CreateProcess.cpp HexDump.cpp NativeDebugger.cpp
+         CreateProcess.cpp
+     1>c:\users\walied\documents\visual studio 2012\projects\nativedebugger\nativedebugger\Header.h(97): warning C4005: 'DBG_CONTINUE' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winnt.h(2084) : see previous definition of 'DBG_CONTINUE'
+     1>c:\users\walied\documents\visual studio 2012\projects\nativedebugger\nativedebugger\Header.h(98): warning C4005: 'DBG_EXCEPTION_NOT_HANDLED' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winnt.h(2100) : see previous definition of 'DBG_EXCEPTION_NOT_HANDLED'
+     1>CreateProcess.cpp(54): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1025) : see declaration of 'wcscpy'
+     1>CreateProcess.cpp(55): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1018) : see declaration of 'wcscat'
+     1>CreateProcess.cpp(149): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1025) : see declaration of 'wcscpy'
+     1>CreateProcess.cpp(150): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1018) : see declaration of 'wcscat'
+     1>CreateProcess.cpp(257): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1025) : see declaration of 'wcscpy'
+     1>CreateProcess.cpp(258): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1018) : see declaration of 'wcscat'
+     1>CreateProcess.cpp(365): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1025) : see declaration of 'wcscpy'
+     1>CreateProcess.cpp(366): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(1018) : see declaration of 'wcscat'
+         HexDump.cpp
+     1>c:\users\walied\documents\visual studio 2012\projects\nativedebugger\nativedebugger\Header.h(97): warning C4005: 'DBG_CONTINUE' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winnt.h(2084) : see previous definition of 'DBG_CONTINUE'
+     1>c:\users\walied\documents\visual studio 2012\projects\nativedebugger\nativedebugger\Header.h(98): warning C4005: 'DBG_EXCEPTION_NOT_HANDLED' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winnt.h(2100) : see previous definition of 'DBG_EXCEPTION_NOT_HANDLED'
+     1>HexDump.cpp(44): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>HexDump.cpp(56): warning C4996: '_ui64tow': This function or variable may be unsafe. Consider using _ui64tow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wchar.h(940) : see declaration of '_ui64tow'
+         NativeDebugger.cpp
+     1>c:\users\walied\documents\visual studio 2012\projects\nativedebugger\nativedebugger\Header.h(97): warning C4005: 'DBG_CONTINUE' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winnt.h(2084) : see previous definition of 'DBG_CONTINUE'
+     1>c:\users\walied\documents\visual studio 2012\projects\nativedebugger\nativedebugger\Header.h(98): warning C4005: 'DBG_EXCEPTION_NOT_HANDLED' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winnt.h(2100) : see previous definition of 'DBG_EXCEPTION_NOT_HANDLED'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\walied\documents\visual studio 2012\Projects\NativeDebugger\x64\Release\NativeDebugger.exe" /INCREMENTAL:NO /NOLOGO ntdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\walied\documents\visual studio 2012\Projects\NativeDebugger\x64\Release\NativeDebugger.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\walied\documents\visual studio 2012\Projects\NativeDebugger\x64\Release\NativeDebugger.lib" /MACHINE:X64 x64\Release\CreateProcess.obj
+         x64\Release\HexDump.obj
+         x64\Release\NativeDebugger.obj
+         x64\Release\stdafx.obj
+         Generating code
+         Finished generating code
+         NativeDebugger.vcxproj -> c:\users\walied\documents\visual studio 2012\Projects\NativeDebugger\x64\Release\NativeDebugger.exe
+     1>Done Building Project "c:\Users\walied\documents\visual studio 2012\Projects\NativeDebugger\NativeDebugger\NativeDebugger.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.06
